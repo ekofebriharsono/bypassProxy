@@ -30,7 +30,7 @@ app.get('/' , (req, res) => {
 
     // res.json(jsonBody);
 
-    res.sendFile(path.join(__dirname, '/index.html'));
+    res.sendFile(path.join(__dirname, '/index2.html'));
 
     // fs.writeFileSync('site.html', '', () => console.log('Created site.html'));
     // fs.createReadStream('site.html').pipe(res);
